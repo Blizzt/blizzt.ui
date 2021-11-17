@@ -6,10 +6,11 @@ module.exports = async ({ config }) => {
   config.resolve = Object.assign(config.resolve, {
     alias: {
       "@types": resolve("../src/types"),
+      "@assets": resolve("../src/assets"),
       "@components": resolve("../src/components"),
       "@hooks": resolve("../src/hooks"),
       "@utils": resolve("../src/utils"),
-    }
+    },
   });
 
   return config;

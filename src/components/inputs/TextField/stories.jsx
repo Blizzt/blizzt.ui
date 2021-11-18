@@ -3,7 +3,7 @@ import React from 'react';
 import TextField from "./";
 
 export default {
-  title: 'Inputs/TextField',
+  title: 'Forms/inputs/TextInput',
   component: TextField,
   argTypes: {},
 };

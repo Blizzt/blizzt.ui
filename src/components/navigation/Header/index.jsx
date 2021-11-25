@@ -1,12 +1,12 @@
 // Dependencies
-import React, {useEffect, useRef} from 'react';
+import React, { useEffect, useRef } from 'react';
 import Jazzicon from '@metamask/jazzicon';
 
 // Assets
 import logo from '@assets/images/blizzt.logo.svg';
 
 // Styles
-import * as styled from './styles';
+import * as styled from './index.styles';
 
 function Header() {
   return (

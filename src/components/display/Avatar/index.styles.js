@@ -1,12 +1,12 @@
 // Dependencies
 import styled from 'styled-components';
-import sizeTypesId from "@types/sizes";
+import sizeTypesId from '@types/sizes';
 
 export const sizes = {
   [sizeTypesId.S]: 32,
   [sizeTypesId.M]: 42,
-  [sizeTypesId.L]: 64,
-}
+  [sizeTypesId.L]: 64
+};
 
 export const Layout = styled.div`
   overflow: hidden;
@@ -36,4 +36,3 @@ export const Image = styled.img`
 `;
 
 export const JazzIcon = styled.div``;
-

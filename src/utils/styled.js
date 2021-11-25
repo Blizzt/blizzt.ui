@@ -6,11 +6,5 @@
  * @returns {string} One or the other query depending on the conditional we assign.
  */
 export const isConditional = (cond, primaryQuery, secondaryQuery = null) => {
-  return !secondaryQuery
-    ? cond
-      ? primaryQuery
-      : ""
-    : cond
-      ? primaryQuery
-      : secondaryQuery;
+  return !secondaryQuery ? cond ? primaryQuery : '' : cond ? primaryQuery : secondaryQuery;
 };

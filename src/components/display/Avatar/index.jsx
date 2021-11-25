@@ -1,17 +1,17 @@
 // Dependencies
-import React, {useEffect, useRef} from 'react';
+import React, { useEffect, useRef } from 'react';
 import Jazzicon from '@metamask/jazzicon';
 
 // Types
 import sizeTypesId from '@types/sizes';
 
 // Styles
-import * as styled from './styles';
+import * as styled from './index.styles';
 
 function Avatar({
   size = sizeTypesId.M,
   hash = 'example',
-  image = null,
+  image = null
 }) {
   // Refs
   const jazzIconRef = useRef(null);
@@ -21,7 +21,7 @@ function Avatar({
       jazzIconRef.current.innerHTML = '';
       jazzIconRef.current.appendChild(Jazzicon(styled.sizes[size], parseInt(hash.slice(2, 10), 16)));
     }
-  }, [image, hash, size])
+  }, [image, hash, size]);
 
   return (
     <styled.Layout className={[size]}>

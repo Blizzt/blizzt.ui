@@ -1,9 +1,8 @@
 // Dependencies
-import React, { useEffect, useRef } from 'react';
-import Jazzicon from '@metamask/jazzicon';
+import React from 'react';
 
 // Assets
-import logo from '@assets/images/blizzt.logo.svg';
+import logo from '@assets/images/blizzt.logo-circle.svg';
 
 // Styles
 import * as styled from './index.styles';
@@ -13,8 +12,8 @@ function Header() {
     <styled.Layout>
       <styled.Logo
         src={logo}
-        width={'38px'}
-        height={'38px'}
+        width={'53px'}
+        height={'53px'}
         alt={'Blizzt Logo'}
       />
     </styled.Layout>

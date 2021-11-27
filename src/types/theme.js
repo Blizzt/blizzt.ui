@@ -1,5 +1,9 @@
 export const dark = {
   name: 'DARK',
+  base: {
+    0: '#fff',
+    1: '#F5FAFF'
+  },
   gradient: {
     1: {
       colorOne: '#149CAD',
@@ -57,6 +61,10 @@ export const dark = {
 
 export const light = {
   name: 'LIGHT',
+  base: {
+    0: '#fff',
+    1: '#F5FAFF'
+  },
   gradient: {
     1: {
       colorOne: '#149CAD',

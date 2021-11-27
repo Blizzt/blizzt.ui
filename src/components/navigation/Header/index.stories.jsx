@@ -7,6 +7,9 @@ import Header from './';
 export default {
   title: 'Navigation/Header',
   component: Header,
+  parameters: {
+    layout: 'fullscreen'
+  }
 };
 
 const Template = (args) => <Header {...args} />;
@@ -15,4 +18,4 @@ const Template = (args) => <Header {...args} />;
 export const Stacking = Template.bind({});
 Stacking.args = {
 
-}
+};
